@@ -16,6 +16,7 @@
 </head>
 <body>
   <ul class="menu">
+
     <li><a href="#/view1">view1</a></li>
     <li><a href="#/view2">view2</a></li>
   </ul>
@@ -25,19 +26,26 @@
   <![endif]-->
 
   <div ng-view></div>
+  <!-- <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div> -->
+  
 
   <div>Angular seed app: v<span app-version></span></div>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="bower_components/highcharts/highcharts.js"></script>
+  <script src="bower_components/d3/d3.min.js"></script>
   <script src="js/app.js"></script>
   <script src="js/services.js"></script>
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/d3chart.js"></script>
+
 </body>
 </html>

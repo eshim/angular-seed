@@ -1,20 +1,3 @@
-<style>
-
-.chart rect {
-  fill: steelblue;
-}
-
-.chart text {
-  fill: white;
-  font: 10px sans-serif;
-  text-anchor: end;
-}
-
-</style>
-
-<svg class="chart"></svg>
-<script>
-
 var data = [4, 8, 15, 16, 23, 42];
 
 var width = 420,
@@ -42,6 +25,3 @@ bar.append("text")
     .attr("y", barHeight / 2)
     .attr("dy", ".35em")
     .text(function(d) { return d; });
-
-</script>
-We set the svg elem
